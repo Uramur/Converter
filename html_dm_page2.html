@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Converter sans "Parse.Int</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body onload="main()">
+<!-- l'attribut onload="main'()" permet l'execution de la fonction javascript
+  main qui se trouve dans le fichier script.js-->
+  <h2><em><u>Convertisser sans Parse.Int</u></em></h2>
+  <label for="name" style="font-size: 20px">Ecrivez un nombre hexadécimal:</label>
+
+	<input id="hexInput">
+
+	<br>
+
+	<button id="convertButton" class="button">
+		Convertir en binaire
+	</button>
+
+  <br>
+
+  <label for="hexToBinPlaceHolder" style="font-size: 20px">Résultat de la conversion:</label>
+
+  <p id  = "hexToBinPlaceHolder" style="color: blue; font-size: 20px"></p>
+
+  <script src="dm_javascript_important.js"></script> <!-- chargemnt du script après le chargement
+     des éléments de la page html -->
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+#HB_PlaceHolder
+{
+	color: blue;
+}
+#HD_PlaceHolder
+{
+	color: blue
+}
+#BH_PlaceHolder
+{
+	color: blue
+}
+#BD_PlaceHolder
+{
+	color: blue
+}
+#DH_PlaceHolder{
+	color: blue
+}
+#DB_PlaceHolder{
+	color: blue
+}
+.text_size
+{
+	font-size: 20px;
+}
+.button
+{
+	font-size: 15px;
+	font-style: oblique;
+	border: 1px solid black;
+	margin: 25px
+}
+body, html {
+border : 1px solid black;
+
+}
+h3
+{
+	font-size: 25px
+}

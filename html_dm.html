@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Convertisseur numérique</title>
+  <link rel="stylesheet" href="style.css">
+
+</head> <body onload="main();"> <!-- l'attribut onload="main'()" permet
+l'execution de la fonction javascript main qui se trouve dans le fichier
+script.js--> 
+<h1><em><u>	Value converter</u></em></h1>
+<label class="text_size" for="name">	Ecrivez un nombre hexadécimal pour convertir en binaire:</label> 
+	<input type="text" name="hexbinInput" id="hexbinInput">
+<br>
+<br>	
+<label class="text_size" for="name">	Ecrivez un nombre hexadécimal pour convertir en décimal:</label>
+	<input type="text" name="hexdecInput" id="hexdecInput">
+<br>
+<br> 
+<label class="text_size" for="name">	Ecrivez un nombre binaire pour convertir en hexadécimal:</label>
+	<input type="text_size" name="binhexInput" id="binhexInput">
+<br>
+<br>
+<label class="text_size" for="name">	Ecrivez un nombre binaire pour convertir en décimal:</label>
+	<input type="text_size" name="bindecInput" id="bindecInput">
+<br>
+<br>
+<label class="text_size" for="name">	Ecrivez un nombre décimal pour convertir en hexadécimal:</label>
+	<input type="text_size" name="dechexInput" id="dechexInput">
+<br>
+<br>
+<label class="text_size" for="name">	Ecrivez un nombre décimal pour convertir en Binaire</label>
+	<input type="text_size" name="decbinInput" id="decbinInput">
+<br>
+<br>
+
+<button class="button" id="convertButton"> Convertir 
+</button> 
+
+<br> 
+<label for="PlaceHolder"><h3>	Résultat de la conversion:</h3></label>
+
+  <p class="text_size">	Hexadécimal->Binary:</p><p class="text_size" id = "HB_PlaceHolder"></p>
+  <p class="text_size">	Hexadécimal->Décimal:</p><p class="text_size" id = "HD_PlaceHolder"></p>
+  <p class="text_size"> Binaire->Hexadécimal:</p><p class="text_size" id="BH_PlaceHolder"></p>
+  <p class="text_size"> Binaire->Décimal:</p><p class="text_size" id="BD_PlaceHolder"></p>
+  <p class="text_size">	Décimal->Hexadécimal:</p><p class="text_size" id="DH_PlaceHolder">
+  <p class="text_size"> Décimal->Binaire:</p><p class="text_size" id="DB_PlaceHolder">
+  <br>
+  <br>
+  
+  <p><a href="html_dm_page2.html" target="_blank" title="Convertisseur sans Parse.Int">Convertisseur sans Parse.Int</a><br />
+
+  <script src="javascript_dm bonus.js"></script>
+   <!-- chargemnt du script après le chargement
+     des éléments de la page html -->
+</body>
+</html>
